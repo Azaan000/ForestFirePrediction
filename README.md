@@ -9,23 +9,33 @@ This system aims to assist in early fire risk assessment, helping improve prepar
 🎯 Objectives
 
 Predict the probability of forest fire occurrence
+
 Analyze the impact of environmental and weather factors
+
 Visualize feature importance for model interpretability
+
 Provide a clean, interactive, and user-friendly web interface
 
 🧠 Machine Learning Model
 
 Algorithm: Random Forest Classifier
+
 Why Random Forest?
 
 Handles non-linear relationships well
+
 Robust against overfitting
+
 Works effectively with mixed feature types
+
 Provides feature importance for interpretability
 
 📊 Dataset
+
 Source: UCI Machine Learning Repository – Forest Fires Dataset
+
 Total Samples: 517
+
 Target Variable: fire (0 = No Fire, 1 = Fire)
 
 🔍 Features Used
@@ -41,12 +51,16 @@ Temp	Temperature (°C)
 RH	Relative Humidity (%)
 Wind	Wind speed
 Rain	Rainfall (mm)
-
 📘 Fire Weather Index Abbreviations
+
 FFMC – Fine Fuel Moisture Code
+
 DMC – Duff Moisture Code
+
 DC – Drought Code
+
 ISI – Initial Spread Index
+
 These indices are part of the Canadian Forest Fire Weather Index (FWI) system.
 
 🖥️ System Architecture
@@ -55,6 +69,7 @@ Dataset → Data Preprocessing → ML Model (Random Forest)
         → Streamlit Frontend → User Prediction
 
 🎨 Features
+
 ✔ Real-time fire risk prediction
 ✔ Probability-based risk classification (Low / Medium / High)
 ✔ Feature importance visualization
@@ -65,11 +80,17 @@ Dataset → Data Preprocessing → ML Model (Random Forest)
 
 🛠️ Technologies Used
 Backend / ML
+
 Python
+
 Scikit-learn
+
 Pandas
+
 NumPy
+
 Frontend / Visualization
+
 Streamlit
 
 Matplotlib
